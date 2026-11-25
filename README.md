@@ -1,13 +1,20 @@
-# ÉBANO — V4 · Cuerdas físicas
+# ÉBANO — V4.2 · Cuerdas físicas
 
 Instrumento de guitarra pentatónica menor, pensado para el iPhone horizontal. Una posición completa por pantalla y seis cuerdas continuas hasta la pastilla derecha. El diapasón conserva la separación de los trastes en temperamento igual y la escala geométrica uniforme. El instrumento tiene 12 tonalidades × 5 posiciones y arranca en Am, posición I (5–8).
 
 ## Ejecutar
 
 - Web: abrir `index.html` en un navegador compatible con Web Audio y Pointer Events; si iOS no ejecuta HTML local, servir la carpeta desde un servidor estático. En Safari, usar la pantalla horizontal. No hay bibliotecas, fuentes, imágenes o muestras de audio externas.
-- Apoyar el teléfono, sostener las notas con la izquierda y atacar las cuerdas en la pastilla derecha. El indicador AMP permite activar o silenciar el audio. El potenciómetro VOL regula el volumen; EXP habilita articulaciones; FIJO habilita el modo de una mano/mouse; TAPA abre los ajustes. Las incrustaciones indican las notas válidas. Las cuerdas sin digitación permanecen silenciadas.
+- Apoyar el teléfono, sostener las notas con la izquierda y atacar las cuerdas en la pastilla derecha. AMP activa el audio y, en reposo, produce una nota de prueba; durante la ejecución silencia. El potenciómetro VOL regula el volumen; EXP habilita articulaciones; FIJO mantiene las digitaciones; TOQUE permite atacar directamente las notas con un dedo; TAPA abre los ajustes. Las incrustaciones indican las notas válidas. Las cuerdas sin digitación permanecen silenciadas.
 - Slide: después de atacar, mover el dedo longitudinalmente entre las notas de la misma cuerda. La altura varía de forma continua sobre la misma voz, incluyendo alturas intermedias. Bend: mover el dedo transversalmente; hasta 200 cents, con retorno al centro. Tras llegar a una nota válida, se puede pasar de slide a bend; al regresar de un bend, se puede volver a deslizar sin levantar el dedo. Ligados: apoyar o quitar un segundo dedo en la misma cuerda (hammer-on/pull-off). Con EXP apagado, sólo se permiten las alturas de la escala.
 - En computadora, FIJO permite seleccionar con un clic y pulsar con mouse o teclas 1–6 (de aguda a grave). QWERTY selecciona las notas inferiores, ASDFGH las superiores, Escape silencia y las flechas cambian de posición.
+
+## V4.2: acceso directo y fiabilidad
+
+- Dos manos sigue siendo el modo predeterminado. TOQUE ataca directamente en el diapasón y permite slides y bends; un toque breve conserva una cola de 240 ms. FIJO mantiene notas para atacar con la pastilla. Cambiar de posición o modo cancela las colas. Los modos TOQUE y FIJO son excluyentes.
+- AMP genera una nota de prueba y mide la señal PCM; arranque serializado, reintento de audio en gestos de usuario, sesión playback si está disponible y recuperación a buffers si el motor modal no produce señal. Los avisos y la guía de ejecución vuelven a ser visibles.
+- Validación de V4.2: 119 comprobaciones de regresión, 50 DSP y 36 de usabilidad y audio en Chromium; origen seguro bloqueado por el entorno. Los resultados y las pruebas adicionales se incluyen en el ZIP de esta entrega. No se ha probado en iPhone físico.
+- GitHub Pages: https://gatdeguin.github.io/Guitarra/ cuando esté habilitada la publicación desde main / (root). Abrir en Safari.
 
 ## Motor físico de cuerda V4
 
