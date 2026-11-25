@@ -1,5 +1,5 @@
 {
-  "entorno": "Chromium headless con Playwright + CDP; touch emulado; HTML cargado como contenido (sin navegación file://).",
+  "entorno": "Chromium headless con Playwright + CDP; touch emulado; HTML como contenido sin origen seguro; DSP modal en tiempo real por ScriptProcessorNode (modo de compatibilidad).",
   "total": 119,
   "aprobadas": 119,
   "pruebas": [
@@ -344,9 +344,9 @@
       "detalle": ""
     },
     {
-      "prueba": "12 buffers de notas precargados",
+      "prueba": "Motor modal en tiempo real activo",
       "resultado": "PASS",
-      "detalle": "24"
+      "detalle": "('modal-compat', 'Error: AudioWorklet no disponible')"
     },
     {
       "prueba": "Mano izquierda prepara La2 sin atacar",
@@ -356,12 +356,12 @@
     {
       "prueba": "Dos manos: púa ataca La2",
       "resultado": "PASS",
-      "detalle": "[{'type': 'attack', 's': 5, 'f': 5, 'midi': 45, 'velocity': 0.68, 'kind': 'pick', 'bend': 0, 'slide': 0, 'variant': 0, 'serial': 1, 'at': 2564.6999999999534}]"
+      "detalle": "[{'type': 'attack', 's': 5, 'f': 5, 'midi': 45, 'velocity': 0.68, 'kind': 'pick', 'bend': 0, 'slide': 0, 'serial': 1, 'engine': 'modal-compat', 'at': 2737.100000000093}]"
     },
     {
       "prueba": "Señal de audio real en el grafo Web Audio",
       "resultado": "PASS",
-      "detalle": "0.07117472336597704"
+      "detalle": "0.020592368319459205"
     },
     {
       "prueba": "Soltar púa conserva nota pisada",
@@ -406,12 +406,12 @@
     {
       "prueba": "Hammer-on con segunda digitación",
       "resultado": "PASS",
-      "detalle": "[{'type': 'attack', 's': 5, 'f': 8, 'midi': 48, 'velocity': 0.6, 'kind': 'hammer', 'bend': 0, 'slide': 0, 'variant': 1, 'serial': 14, 'at': 4020.1999999999534}]"
+      "detalle": "[{'type': 'attack', 's': 5, 'f': 8, 'midi': 48, 'velocity': 0.6, 'kind': 'hammer', 'bend': 0, 'slide': 0, 'serial': 14, 'engine': 'modal-compat', 'at': 4258.199999999721}]"
     },
     {
       "prueba": "Pull-off retorna al dedo inferior",
       "resultado": "PASS",
-      "detalle": "[{'type': 'attack', 's': 5, 'f': 5, 'midi': 45, 'velocity': 0.6, 'kind': 'pull', 'bend': 0, 'slide': 0, 'variant': 1, 'serial': 15, 'at': 4086.3000000000466}]"
+      "detalle": "[{'type': 'attack', 's': 5, 'f': 5, 'midi': 45, 'velocity': 0.6, 'kind': 'pull', 'bend': 0, 'slide': 0, 'serial': 15, 'engine': 'modal-compat', 'at': 4308.199999999721}]"
     },
     {
       "prueba": "Bend cambia afinación de voz en tiempo real",
@@ -426,27 +426,27 @@
     {
       "prueba": "Slide intermedio conserva una sola voz y altura continua",
       "resultado": "PASS",
-      "detalle": "{'f': 5, 's': 5, 'bend': 0, 'slide': 135.21055084559856, 'pitchCents': 135.21055084559856, 'detune': 132.78030395507812, 'serial': 16}"
+      "detalle": "{'f': 5, 's': 5, 'bend': 0, 'slide': 135.21055084559856, 'pitchCents': 135.21055084559856, 'detune': 135.21055084559856, 'serial': 16}"
     },
     {
       "prueba": "Slide llega a Do3 sin reataque",
       "resultado": "PASS",
-      "detalle": "{'f': 8, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 300, 'detune': 297.0381164550781, 'serial': 16}"
+      "detalle": "{'f': 8, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 300, 'detune': 300, 'serial': 16}"
     },
     {
       "prueba": "Slide seguido de bend sin levantar dedo ni reataque",
       "resultado": "PASS",
-      "detalle": "{'f': 8, 's': 5, 'bend': 118.25291384186183, 'slide': 0, 'pitchCents': 418.2529138418618, 'detune': 416.8929443359375, 'serial': 16}"
+      "detalle": "{'f': 8, 's': 5, 'bend': 118.25291384186183, 'slide': 0, 'pitchCents': 418.2529138418618, 'detune': 418.2529138418618, 'serial': 16}"
     },
     {
       "prueba": "Release de bend conserva altura del destino del slide",
       "resultado": "PASS",
-      "detalle": "{'f': 8, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 300, 'detune': 308.11407470703125, 'serial': 16}"
+      "detalle": "{'f': 8, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 300, 'detune': 300, 'serial': 16}"
     },
     {
       "prueba": "Bend seguido de slide inverso sobre la misma voz",
       "resultado": "PASS",
-      "detalle": "{'f': 5, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 0, 'detune': 5.392331123352051, 'serial': 16}"
+      "detalle": "{'f': 5, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 0, 'detune': 0, 'serial': 16}"
     },
     {
       "prueba": "Slide y bend terminan sin voces retenidas",
@@ -531,17 +531,17 @@
     {
       "prueba": "Síntesis con amplitud acotada y datos finitos",
       "resultado": "PASS",
-      "detalle": "{'finite': True, 'peak': 0.6000000238418579, 'early': 0.20019708905519412, 'late': 0.002201174184152786, 'freq': 109.97506234413964, 'corr': 0.9995860386732048}"
+      "detalle": "{'finite': True, 'peak': 0.12647195160388947, 'early': 0.030020958297825917, 'late': 0.00013038221168675776, 'freq': 110.25, 'corr': 0.996357795763562}"
     },
     {
       "prueba": "Frecuencia sintetizada de La2 cerca de 110 Hz",
       "resultado": "PASS",
-      "detalle": "109.97506234413964"
+      "detalle": "110.25"
     },
     {
       "prueba": "Decaimiento físico de amplitud",
       "resultado": "PASS",
-      "detalle": "(0.20019708905519412, 0.002201174184152786)"
+      "detalle": "(0.030020958297825917, 0.00013038221168675776)"
     },
     {
       "prueba": "Encuadre horizontal 667×375",
@@ -603,6 +603,7 @@
     "No iPhone físico",
     "No latencia dedo-altavoz medida",
     "No escucha subjetiva del timbre",
-    "No Safari físico ni WebKit disponible en esta ejecución"
+    "No Safari físico ni WebKit disponible en esta ejecución",
+    "No se pudo ejecutar el AudioWorklet en un origen seguro; se comprobó el mismo núcleo modal por el modo de compatibilidad y el módulo en un host simulado con Node"
   ]
 }

@@ -1,0 +1,523 @@
+{
+  "entorno": "Node v22.16.0 / núcleo JS extraído directamente de index.html",
+  "total": 50,
+  "aprobadas": 50,
+  "pruebas": [
+    {
+      "prueba": "Afinación cuerda 1 traste 5 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 440,
+        "medido_hz": 439.8729413657668,
+        "error_cents": -0.5,
+        "pico": 0.07993560284376144
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 1 traste 12 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 659.2551138257398,
+        "medido_hz": 659.2551138257398,
+        "error_cents": 0,
+        "pico": 0.06022859364748001
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 1 traste 24 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 1318.5102276514797,
+        "medido_hz": 1318.5102276514797,
+        "error_cents": 0,
+        "pico": 0.04481294006109238
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 2 traste 5 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 329.6275569128699,
+        "medido_hz": 329.53237048744495,
+        "error_cents": -0.5,
+        "pico": 0.08024062216281891
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 2 traste 12 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 493.8833012561241,
+        "medido_hz": 493.8833012561241,
+        "error_cents": 0,
+        "pico": 0.05916747450828552
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 2 traste 24 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 987.7666025122483,
+        "medido_hz": 987.7666025122483,
+        "error_cents": 0,
+        "pico": 0.043687090277671814
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 3 traste 5 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 261.6255653005986,
+        "medido_hz": 261.55001578467227,
+        "error_cents": -0.5,
+        "pico": 0.07877281308174133
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 3 traste 12 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 391.99543598174927,
+        "medido_hz": 391.88223960738225,
+        "error_cents": -0.5,
+        "pico": 0.05816569924354553
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 3 traste 24 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 783.9908719634986,
+        "medido_hz": 783.9908719634986,
+        "error_cents": 0,
+        "pico": 0.04374270141124725
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 4 traste 5 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 195.99771799087463,
+        "medido_hz": 195.99771799087463,
+        "error_cents": 0,
+        "pico": 0.0727328509092331
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 4 traste 12 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 293.6647679174076,
+        "medido_hz": 293.5799664530121,
+        "error_cents": -0.5,
+        "pico": 0.05295317992568016
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 4 traste 24 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 587.3295358348151,
+        "medido_hz": 587.4991877539268,
+        "error_cents": 0.5,
+        "pico": 0.03844856098294258
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 5 traste 5 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 146.8323839587038,
+        "medido_hz": 146.8323839587038,
+        "error_cents": 0,
+        "pico": 0.0684276819229126
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 5 traste 12 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 220,
+        "medido_hz": 219.9364706828834,
+        "error_cents": -0.5,
+        "pico": 0.05063091218471527
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 5 traste 24 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 440,
+        "medido_hz": 440,
+        "error_cents": 0,
+        "pico": 0.03781208023428917
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 6 traste 5 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 110,
+        "medido_hz": 110,
+        "error_cents": 0,
+        "pico": 0.06475304812192917
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 6 traste 12 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 164.81377845643496,
+        "medido_hz": 164.81377845643496,
+        "error_cents": 0,
+        "pico": 0.04769623652100563
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 6 traste 24 / 44100",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 329.6275569128699,
+        "medido_hz": 329.6275569128699,
+        "error_cents": 0,
+        "pico": 0.036950670182704926
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 1 traste 5 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 440,
+        "medido_hz": 439.8729413657668,
+        "error_cents": -0.5,
+        "pico": 0.08022816479206085
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 1 traste 12 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 659.2551138257398,
+        "medido_hz": 659.2551138257398,
+        "error_cents": 0,
+        "pico": 0.0593673512339592
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 1 traste 24 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 1318.5102276514797,
+        "medido_hz": 1318.5102276514797,
+        "error_cents": 0,
+        "pico": 0.04366571828722954
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 2 traste 5 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 329.6275569128699,
+        "medido_hz": 329.53237048744495,
+        "error_cents": -0.5,
+        "pico": 0.08039931952953339
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 2 traste 12 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 493.8833012561241,
+        "medido_hz": 493.8833012561241,
+        "error_cents": 0,
+        "pico": 0.05988655239343643
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 2 traste 24 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 987.7666025122483,
+        "medido_hz": 987.7666025122483,
+        "error_cents": 0,
+        "pico": 0.043311890214681625
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 3 traste 5 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 261.6255653005986,
+        "medido_hz": 261.55001578467227,
+        "error_cents": -0.5,
+        "pico": 0.07801754027605057
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 3 traste 12 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 391.99543598174927,
+        "medido_hz": 391.88223960738225,
+        "error_cents": -0.5,
+        "pico": 0.05870750546455383
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 3 traste 24 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 783.9908719634986,
+        "medido_hz": 783.9908719634986,
+        "error_cents": 0,
+        "pico": 0.04359845072031021
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 4 traste 5 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 195.99771799087463,
+        "medido_hz": 195.99771799087463,
+        "error_cents": 0,
+        "pico": 0.07190453261137009
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 4 traste 12 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 293.6647679174076,
+        "medido_hz": 293.5799664530121,
+        "error_cents": -0.5,
+        "pico": 0.05280512943863869
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 4 traste 24 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 587.3295358348151,
+        "medido_hz": 587.4991877539268,
+        "error_cents": 0.5,
+        "pico": 0.03859524801373482
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 5 traste 5 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 146.8323839587038,
+        "medido_hz": 146.8323839587038,
+        "error_cents": 0,
+        "pico": 0.06869857013225555
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 5 traste 12 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 220,
+        "medido_hz": 219.9364706828834,
+        "error_cents": -0.5,
+        "pico": 0.05059422552585602
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 5 traste 24 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 440,
+        "medido_hz": 440,
+        "error_cents": 0,
+        "pico": 0.03783601522445679
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 6 traste 5 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 110,
+        "medido_hz": 110,
+        "error_cents": 0,
+        "pico": 0.06503649801015854
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 6 traste 12 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 164.81377845643496,
+        "medido_hz": 164.81377845643496,
+        "error_cents": 0,
+        "pico": 0.0479891411960125
+      }
+    },
+    {
+      "prueba": "Afinación cuerda 6 traste 24 / 48000",
+      "resultado": "PASS",
+      "detalle": {
+        "objetivo_hz": 329.6275569128699,
+        "medido_hz": 329.6275569128699,
+        "error_cents": 0,
+        "pico": 0.03705225884914398
+      }
+    },
+    {
+      "prueba": "Sustain y pérdidas dependientes de frecuencia",
+      "resultado": "PASS",
+      "detalle": {
+        "rms_temprano": 0.01559065560360261,
+        "rms_4s": 0.0002642385313779245,
+        "perdida_db": -35.41736462418545
+      }
+    },
+    {
+      "prueba": "Parciales altos decaen antes que la fundamental",
+      "resultado": "PASS",
+      "detalle": {
+        "relacion_inicial_db": 12.784176482241476,
+        "relacion_tardia_db": 27.983077473619954
+      }
+    },
+    {
+      "prueba": "Bend cambia tensión; slide cambia longitud",
+      "resultado": "PASS",
+      "detalle": {
+        "base": {
+          "length": 0.48545149290804485,
+          "tension": 78,
+          "stiffness": 0.0002303234949495524,
+          "frequency": 110
+        },
+        "bend": {
+          "length": 0.48545149290804485,
+          "tension": 98.2738418918001,
+          "stiffness": 0.00018280787908795589,
+          "frequency": 123.47082531403103
+        },
+        "slide": {
+          "length": 0.40821442016593895,
+          "tension": 78,
+          "stiffness": 0.00032572661029082805,
+          "frequency": 130.8127826502993
+        },
+        "aguda": {
+          "length": 0.48545149290804485,
+          "tension": 72,
+          "stiffness": 0.000023768968100202132,
+          "frequency": 440
+        }
+      }
+    },
+    {
+      "prueba": "Dinámica no normalizada por nota",
+      "resultado": "PASS",
+      "detalle": {
+        "rms_suave": 0.006183341037425528,
+        "rms_fuerte": 0.029624730292881103,
+        "rango_db": 13.608624096575339
+      }
+    },
+    {
+      "prueba": "Púa cerca del puente cambia la distribución armónica",
+      "resultado": "PASS",
+      "detalle": {
+        "relacion_agudos_mastil_db": -21.639796951239944,
+        "relacion_agudos_puente_db": -12.75261101176309
+      }
+    },
+    {
+      "prueba": "Bend modifica frecuencia PCM y no reinicia fase",
+      "resultado": "PASS",
+      "detalle": {
+        "frecuencia": 123.47082531403103,
+        "esperada": 123.47082531403103,
+        "error_cents": 0,
+        "discontinuidad_muestra": 0.0005826826673001051
+      }
+    },
+    {
+      "prueba": "Slide continuo llega a afinación de destino",
+      "resultado": "PASS",
+      "detalle": {
+        "frecuencia": 130.7372440425756,
+        "esperada": 130.8127826502993,
+        "error_cents": -1
+      }
+    },
+    {
+      "prueba": "Freno por dedo: amortiguación en menos de 100 ms",
+      "resultado": "PASS",
+      "detalle": {
+        "rms_antes": 0.0029059323104146987,
+        "rms_110ms": 5.614291936291366e-10
+      }
+    },
+    {
+      "prueba": "Acoplamiento pasivo excita cuerda preparada sin crear energía",
+      "resultado": "PASS",
+      "detalle": {
+        "energia_receptora": 0.001395576695331855,
+        "incrementos_energia": 0
+      }
+    },
+    {
+      "prueba": "No se excitan cuerdas no preparadas",
+      "resultado": "PASS",
+      "detalle": {
+        "energia": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "prueba": "Estrés polifónico: muestras finitas y margen antes del amplificador",
+      "resultado": "PASS",
+      "detalle": {
+        "pico": 0.960676372051239,
+        "pico_pre_proteccion": 1.0221364966873374,
+        "muestras_con_proteccion": 57,
+        "segundos": 4
+      }
+    },
+    {
+      "prueba": "Protección anti-alias modal en bend agudo",
+      "resultado": "PASS",
+      "detalle": {
+        "modos_suprimidos": 34,
+        "modos_fuera_de_banda_activos": 0
+      }
+    },
+    {
+      "prueba": "Rendimiento de escritorio: presupuesto medio por bloque",
+      "resultado": "PASS",
+      "detalle": {
+        "estable": {
+          "mediana_ms": 0.11283999999977823,
+          "p99_ms": 0.16269499999998516,
+          "max_ms": 0.2712490000003527,
+          "presupuesto_ms": 2.6666666666666665
+        },
+        "estres": {
+          "mediana_ms": 0.20313699999951496,
+          "p99_ms": 0.4310590000004595,
+          "max_ms": 6.185401999999158,
+          "presupuesto_ms": 2.6666666666666665
+        },
+        "nota": "Node/V8 en el entorno de pruebas; no equivale a iPhone"
+      }
+    },
+    {
+      "prueba": "Módulo AudioWorklet: registro y proceso con host simulado",
+      "resultado": "PASS",
+      "detalle": {
+        "pico": 0.0672253742814064,
+        "limitacion": "No prueba el hilo AudioWorklet real"
+      }
+    }
+  ]
+}

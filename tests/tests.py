@@ -53,14 +53,14 @@ with sync_playwright() as w:
     check('No recursos remotos',not [r for r in requests if r.startswith(('http:','https:'))],requests[:3])
     page.get_by_role('button',name='Activar sonido').click();page.wait_for_timeout(1600)
     check('AudioContext real activado',snap()['audio']=='running')
-    check('12 buffers de notas precargados',snap()['cache']>=12,snap()['cache'])
+    check('Motor modal en tiempo real activo',snap()['engine'] in ['modal-realtime','modal-compat'] and snap()['dspFrame']>0,(snap()['engine'],snap()['physicsError']))
     # real multi-touch input, not synthetic PointerEvent dispatch
     before=len(attacks());touch(10,boxnote(5,5))
     check('Mano izquierda prepara La2 sin atacar',snap()['current'][5]==5 and len(attacks())==before,snap()['current'])
     touch(20,pick(5));page.wait_for_timeout(100)
     check('Dos manos: púa ataca La2',len(attacks())==before+1 and last()[0]['midi']==45,last())
     level=js('window.__guitar.signal()');check('Señal de audio real en el grafo Web Audio',level is not None and level>.001,level)
-    page.screenshot(path=str(CAPTURES/'guitarra-v3-activa.png'))
+    page.screenshot(path=str(CAPTURES/'guitarra-v4-activa.png'))
     end(20);check('Soltar púa conserva nota pisada',snap()['current'][5]==5 and snap()['voices'][5] is not None)
     end(10);check('Soltar mano izquierda libera voz',all(v is None for v in snap()['voices']) and all(v is None for v in snap()['current']))
     # Invalid fret 6, choose same y as its string (midpoint interpolation).
@@ -125,11 +125,11 @@ with sync_playwright() as w:
         safe=all(g['x0']<=n['x']<=g['x1'] and 0<n['y']<g['H'] for n in g['notes']) and 0<=g['x0']<g['x1']<g['px']<g['x2']<=g['W'] and g['scale']>0
         overflow=js('document.documentElement.scrollWidth>innerWidth || document.documentElement.scrollHeight>innerHeight')
         check(f'Encuadre horizontal {ww}×{hh}',safe and not overflow,f"escala {g['scale']:.3f}; ancho púa {g['pWidth'] if 'pWidth' in g else g['x2']-g['px']:.1f}")
-        if ww==667:page.screenshot(path=str(CAPTURES/'guitarra-v3-se.png'))
-    page.set_viewport_size({'width':852,'height':393});page.wait_for_timeout(350);page.screenshot(path=str(CAPTURES/'guitarra-v3-preview.png'))
+        if ww==667:page.screenshot(path=str(CAPTURES/'guitarra-v4-se.png'))
+    page.set_viewport_size({'width':852,'height':393});page.wait_for_timeout(350);page.screenshot(path=str(CAPTURES/'guitarra-v4-preview.png'))
     page.set_viewport_size({'width':393,'height':852});page.wait_for_timeout(150);check('Pantalla vertical pide rotar',page.locator('#rotate').is_visible())
     check('Sin excepciones durante las pruebas',not errors,errors)
     check('Sin recursos HTTP externos durante pruebas',not [r for r in requests if r.startswith(('http:','https:'))])
     browser.close()
-report={'entorno':'Chromium headless con Playwright + CDP; touch emulado; HTML cargado como contenido (sin navegación file://).','total':len(checks),'aprobadas':sum(x['resultado']=='PASS' for x in checks),'pruebas':checks,'limitaciones':['No iPhone físico','No latencia dedo-altavoz medida','No escucha subjetiva del timbre','No Safari físico ni WebKit disponible en esta ejecución']}
+report={'entorno':'Chromium headless con Playwright + CDP; touch emulado; HTML como contenido sin origen seguro; DSP modal en tiempo real por ScriptProcessorNode (modo de compatibilidad).' ,'total':len(checks),'aprobadas':sum(x['resultado']=='PASS' for x in checks),'pruebas':checks,'limitaciones':['No iPhone físico','No latencia dedo-altavoz medida','No escucha subjetiva del timbre','No Safari físico ni WebKit disponible en esta ejecución','No se pudo ejecutar el AudioWorklet en un origen seguro; se comprobó el mismo núcleo modal por el modo de compatibilidad y el módulo en un host simulado con Node']}
 (BASE/'tests'/'resultados-pruebas.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)); print('TOTAL',report['total'])
