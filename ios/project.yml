@@ -1,0 +1,22 @@
+name: Ebano
+options:
+  deploymentTarget:
+    iOS: '16.0'
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    PRODUCT_BUNDLE_IDENTIFIER: com.example.ebano.guitar
+    TARGETED_DEVICE_FAMILY: '1'
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_CFBundleDisplayName: Ébano
+targets:
+  Ebano:
+    type: application
+    platform: iOS
+    sources:
+      - path: EbanoApp.swift
+      - path: ../index.html
+        buildPhase: resources

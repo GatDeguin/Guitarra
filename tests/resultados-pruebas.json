@@ -1,0 +1,608 @@
+{
+  "entorno": "Chromium headless con Playwright + CDP; touch emulado; HTML cargado como contenido (sin navegación file://).",
+  "total": 119,
+  "aprobadas": 119,
+  "pruebas": [
+    {
+      "prueba": "Inicio sin excepciones",
+      "resultado": "PASS",
+      "detalle": "[]"
+    },
+    {
+      "prueba": "Mapa tonalidad 0 posición 1",
+      "resultado": "PASS",
+      "detalle": "T8–11"
+    },
+    {
+      "prueba": "Mapa tonalidad 0 posición 2",
+      "resultado": "PASS",
+      "detalle": "T10–13"
+    },
+    {
+      "prueba": "Mapa tonalidad 0 posición 3",
+      "resultado": "PASS",
+      "detalle": "T12–16"
+    },
+    {
+      "prueba": "Mapa tonalidad 0 posición 4",
+      "resultado": "PASS",
+      "detalle": "T15–18"
+    },
+    {
+      "prueba": "Mapa tonalidad 0 posición 5",
+      "resultado": "PASS",
+      "detalle": "T17–20"
+    },
+    {
+      "prueba": "Mapa tonalidad 1 posición 1",
+      "resultado": "PASS",
+      "detalle": "T9–12"
+    },
+    {
+      "prueba": "Mapa tonalidad 1 posición 2",
+      "resultado": "PASS",
+      "detalle": "T11–14"
+    },
+    {
+      "prueba": "Mapa tonalidad 1 posición 3",
+      "resultado": "PASS",
+      "detalle": "T13–17"
+    },
+    {
+      "prueba": "Mapa tonalidad 1 posición 4",
+      "resultado": "PASS",
+      "detalle": "T16–19"
+    },
+    {
+      "prueba": "Mapa tonalidad 1 posición 5",
+      "resultado": "PASS",
+      "detalle": "T18–21"
+    },
+    {
+      "prueba": "Mapa tonalidad 2 posición 1",
+      "resultado": "PASS",
+      "detalle": "T10–13"
+    },
+    {
+      "prueba": "Mapa tonalidad 2 posición 2",
+      "resultado": "PASS",
+      "detalle": "T12–15"
+    },
+    {
+      "prueba": "Mapa tonalidad 2 posición 3",
+      "resultado": "PASS",
+      "detalle": "T14–18"
+    },
+    {
+      "prueba": "Mapa tonalidad 2 posición 4",
+      "resultado": "PASS",
+      "detalle": "T17–20"
+    },
+    {
+      "prueba": "Mapa tonalidad 2 posición 5",
+      "resultado": "PASS",
+      "detalle": "T19–22"
+    },
+    {
+      "prueba": "Mapa tonalidad 3 posición 1",
+      "resultado": "PASS",
+      "detalle": "T11–14"
+    },
+    {
+      "prueba": "Mapa tonalidad 3 posición 2",
+      "resultado": "PASS",
+      "detalle": "T13–16"
+    },
+    {
+      "prueba": "Mapa tonalidad 3 posición 3",
+      "resultado": "PASS",
+      "detalle": "T15–19"
+    },
+    {
+      "prueba": "Mapa tonalidad 3 posición 4",
+      "resultado": "PASS",
+      "detalle": "T18–21"
+    },
+    {
+      "prueba": "Mapa tonalidad 3 posición 5",
+      "resultado": "PASS",
+      "detalle": "T20–23"
+    },
+    {
+      "prueba": "Mapa tonalidad 4 posición 1",
+      "resultado": "PASS",
+      "detalle": "T12–15"
+    },
+    {
+      "prueba": "Mapa tonalidad 4 posición 2",
+      "resultado": "PASS",
+      "detalle": "T14–17"
+    },
+    {
+      "prueba": "Mapa tonalidad 4 posición 3",
+      "resultado": "PASS",
+      "detalle": "T16–20"
+    },
+    {
+      "prueba": "Mapa tonalidad 4 posición 4",
+      "resultado": "PASS",
+      "detalle": "T19–22"
+    },
+    {
+      "prueba": "Mapa tonalidad 4 posición 5",
+      "resultado": "PASS",
+      "detalle": "T21–24"
+    },
+    {
+      "prueba": "Mapa tonalidad 5 posición 1",
+      "resultado": "PASS",
+      "detalle": "T1–4"
+    },
+    {
+      "prueba": "Mapa tonalidad 5 posición 2",
+      "resultado": "PASS",
+      "detalle": "T3–6"
+    },
+    {
+      "prueba": "Mapa tonalidad 5 posición 3",
+      "resultado": "PASS",
+      "detalle": "T5–9"
+    },
+    {
+      "prueba": "Mapa tonalidad 5 posición 4",
+      "resultado": "PASS",
+      "detalle": "T8–11"
+    },
+    {
+      "prueba": "Mapa tonalidad 5 posición 5",
+      "resultado": "PASS",
+      "detalle": "T10–13"
+    },
+    {
+      "prueba": "Mapa tonalidad 6 posición 1",
+      "resultado": "PASS",
+      "detalle": "T2–5"
+    },
+    {
+      "prueba": "Mapa tonalidad 6 posición 2",
+      "resultado": "PASS",
+      "detalle": "T4–7"
+    },
+    {
+      "prueba": "Mapa tonalidad 6 posición 3",
+      "resultado": "PASS",
+      "detalle": "T6–10"
+    },
+    {
+      "prueba": "Mapa tonalidad 6 posición 4",
+      "resultado": "PASS",
+      "detalle": "T9–12"
+    },
+    {
+      "prueba": "Mapa tonalidad 6 posición 5",
+      "resultado": "PASS",
+      "detalle": "T11–14"
+    },
+    {
+      "prueba": "Mapa tonalidad 7 posición 1",
+      "resultado": "PASS",
+      "detalle": "T3–6"
+    },
+    {
+      "prueba": "Mapa tonalidad 7 posición 2",
+      "resultado": "PASS",
+      "detalle": "T5–8"
+    },
+    {
+      "prueba": "Mapa tonalidad 7 posición 3",
+      "resultado": "PASS",
+      "detalle": "T7–11"
+    },
+    {
+      "prueba": "Mapa tonalidad 7 posición 4",
+      "resultado": "PASS",
+      "detalle": "T10–13"
+    },
+    {
+      "prueba": "Mapa tonalidad 7 posición 5",
+      "resultado": "PASS",
+      "detalle": "T12–15"
+    },
+    {
+      "prueba": "Mapa tonalidad 8 posición 1",
+      "resultado": "PASS",
+      "detalle": "T4–7"
+    },
+    {
+      "prueba": "Mapa tonalidad 8 posición 2",
+      "resultado": "PASS",
+      "detalle": "T6–9"
+    },
+    {
+      "prueba": "Mapa tonalidad 8 posición 3",
+      "resultado": "PASS",
+      "detalle": "T8–12"
+    },
+    {
+      "prueba": "Mapa tonalidad 8 posición 4",
+      "resultado": "PASS",
+      "detalle": "T11–14"
+    },
+    {
+      "prueba": "Mapa tonalidad 8 posición 5",
+      "resultado": "PASS",
+      "detalle": "T13–16"
+    },
+    {
+      "prueba": "Mapa tonalidad 9 posición 1",
+      "resultado": "PASS",
+      "detalle": "T5–8"
+    },
+    {
+      "prueba": "Mapa tonalidad 9 posición 2",
+      "resultado": "PASS",
+      "detalle": "T7–10"
+    },
+    {
+      "prueba": "Mapa tonalidad 9 posición 3",
+      "resultado": "PASS",
+      "detalle": "T9–13"
+    },
+    {
+      "prueba": "Mapa tonalidad 9 posición 4",
+      "resultado": "PASS",
+      "detalle": "T12–15"
+    },
+    {
+      "prueba": "Mapa tonalidad 9 posición 5",
+      "resultado": "PASS",
+      "detalle": "T14–17"
+    },
+    {
+      "prueba": "Mapa tonalidad 10 posición 1",
+      "resultado": "PASS",
+      "detalle": "T6–9"
+    },
+    {
+      "prueba": "Mapa tonalidad 10 posición 2",
+      "resultado": "PASS",
+      "detalle": "T8–11"
+    },
+    {
+      "prueba": "Mapa tonalidad 10 posición 3",
+      "resultado": "PASS",
+      "detalle": "T10–14"
+    },
+    {
+      "prueba": "Mapa tonalidad 10 posición 4",
+      "resultado": "PASS",
+      "detalle": "T13–16"
+    },
+    {
+      "prueba": "Mapa tonalidad 10 posición 5",
+      "resultado": "PASS",
+      "detalle": "T15–18"
+    },
+    {
+      "prueba": "Mapa tonalidad 11 posición 1",
+      "resultado": "PASS",
+      "detalle": "T7–10"
+    },
+    {
+      "prueba": "Mapa tonalidad 11 posición 2",
+      "resultado": "PASS",
+      "detalle": "T9–12"
+    },
+    {
+      "prueba": "Mapa tonalidad 11 posición 3",
+      "resultado": "PASS",
+      "detalle": "T11–15"
+    },
+    {
+      "prueba": "Mapa tonalidad 11 posición 4",
+      "resultado": "PASS",
+      "detalle": "T14–17"
+    },
+    {
+      "prueba": "Mapa tonalidad 11 posición 5",
+      "resultado": "PASS",
+      "detalle": "T16–19"
+    },
+    {
+      "prueba": "60 configuraciones musicales, 720 notas",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Am posición I exacta",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Am I contiene tres tónicas",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Geometría: progresión 2^(-1/12)",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Geometría: misma escala longitudinal y transversal",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "No recursos remotos",
+      "resultado": "PASS",
+      "detalle": "[]"
+    },
+    {
+      "prueba": "AudioContext real activado",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "12 buffers de notas precargados",
+      "resultado": "PASS",
+      "detalle": "24"
+    },
+    {
+      "prueba": "Mano izquierda prepara La2 sin atacar",
+      "resultado": "PASS",
+      "detalle": "[None, None, None, None, None, 5]"
+    },
+    {
+      "prueba": "Dos manos: púa ataca La2",
+      "resultado": "PASS",
+      "detalle": "[{'type': 'attack', 's': 5, 'f': 5, 'midi': 45, 'velocity': 0.68, 'kind': 'pick', 'bend': 0, 'slide': 0, 'variant': 0, 'serial': 1, 'at': 2564.6999999999534}]"
+    },
+    {
+      "prueba": "Señal de audio real en el grafo Web Audio",
+      "resultado": "PASS",
+      "detalle": "0.07117472336597704"
+    },
+    {
+      "prueba": "Soltar púa conserva nota pisada",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Soltar mano izquierda libera voz",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Traste 6 silencioso",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Seis contactos simultáneos conservan seis notas",
+      "resultado": "PASS",
+      "detalle": "[5, 5, 5, 5, 5, 5]"
+    },
+    {
+      "prueba": "Barrido rápido descendente procesa seis cuerdas en orden",
+      "resultado": "PASS",
+      "detalle": "[0, 1, 2, 3, 4, 5]"
+    },
+    {
+      "prueba": "Barrido inverso sin repetir cuerda inicial",
+      "resultado": "PASS",
+      "detalle": "[4, 3, 2, 1, 0]"
+    },
+    {
+      "prueba": "Histéresis evita ataques por temblor",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "TouchCancel limpia todas las cuerdas",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Hammer-on con segunda digitación",
+      "resultado": "PASS",
+      "detalle": "[{'type': 'attack', 's': 5, 'f': 8, 'midi': 48, 'velocity': 0.6, 'kind': 'hammer', 'bend': 0, 'slide': 0, 'variant': 1, 'serial': 14, 'at': 4020.1999999999534}]"
+    },
+    {
+      "prueba": "Pull-off retorna al dedo inferior",
+      "resultado": "PASS",
+      "detalle": "[{'type': 'attack', 's': 5, 'f': 5, 'midi': 45, 'velocity': 0.6, 'kind': 'pull', 'bend': 0, 'slide': 0, 'variant': 1, 'serial': 15, 'at': 4086.3000000000466}]"
+    },
+    {
+      "prueba": "Bend cambia afinación de voz en tiempo real",
+      "resultado": "PASS",
+      "detalle": "114.44059490622342"
+    },
+    {
+      "prueba": "Bend vuelve a afinación original",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Slide intermedio conserva una sola voz y altura continua",
+      "resultado": "PASS",
+      "detalle": "{'f': 5, 's': 5, 'bend': 0, 'slide': 135.21055084559856, 'pitchCents': 135.21055084559856, 'detune': 132.78030395507812, 'serial': 16}"
+    },
+    {
+      "prueba": "Slide llega a Do3 sin reataque",
+      "resultado": "PASS",
+      "detalle": "{'f': 8, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 300, 'detune': 297.0381164550781, 'serial': 16}"
+    },
+    {
+      "prueba": "Slide seguido de bend sin levantar dedo ni reataque",
+      "resultado": "PASS",
+      "detalle": "{'f': 8, 's': 5, 'bend': 118.25291384186183, 'slide': 0, 'pitchCents': 418.2529138418618, 'detune': 416.8929443359375, 'serial': 16}"
+    },
+    {
+      "prueba": "Release de bend conserva altura del destino del slide",
+      "resultado": "PASS",
+      "detalle": "{'f': 8, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 300, 'detune': 308.11407470703125, 'serial': 16}"
+    },
+    {
+      "prueba": "Bend seguido de slide inverso sobre la misma voz",
+      "resultado": "PASS",
+      "detalle": "{'f': 5, 's': 5, 'bend': 0, 'slide': 0, 'pitchCents': 0, 'detune': 5.392331123352051, 'serial': 16}"
+    },
+    {
+      "prueba": "Slide y bend terminan sin voces retenidas",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Puente nativo emite ataques y articulaciones",
+      "resultado": "PASS",
+      "detalle": "[{'kind': 'fret', 'intensity': 0.1, 'sharpness': 0.38}, {'kind': 'pick', 'intensity': 0.6040000000000001, 'sharpness': 0.5800000000000001}, {'kind': 'slide', 'intensity': 0.23, 'sharpness': 0.48}, {'kind': 'bend', 'intensity': 0.245, 'sharpness': 0.43}]"
+    },
+    {
+      "prueba": "Parámetros hápticos finitos y acotados",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Sin capacidad nativa no se declara Core Haptics",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Modo Fijar mantiene nota tras levantar mouse",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Teclado 1 ataca primera cuerda fijada",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Teclado A elige segundo traste de la primera cuerda",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Escape limpia todas las notas",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Controles de timbre, guía, orientación y ancho",
+      "resultado": "PASS",
+      "detalle": "{'root': 9, 'form': 0, 'down': False, 'guide': 'intervals', 'orientation': 'real', 'preset': 'ambient', 'volume': 70, 'room': 42, 'pickWidth': 18, 'hold': False, 'express': False, 'haptic': True, 'motion': True, 'click': False, 'bpm': 90}"
+    },
+    {
+      "prueba": "Orientación grave arriba invierte dibujo y púa",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Posición III conserva cinco espacios",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Cambio de tonalidad a Do menor",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Posición IV de Do menor continúa ascendente",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Opción de octava baja mantiene clases de altura",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Demostración inicia en nota grave",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Demo se cancela sin ataques tardíos",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Síntesis con amplitud acotada y datos finitos",
+      "resultado": "PASS",
+      "detalle": "{'finite': True, 'peak': 0.6000000238418579, 'early': 0.20019708905519412, 'late': 0.002201174184152786, 'freq': 109.97506234413964, 'corr': 0.9995860386732048}"
+    },
+    {
+      "prueba": "Frecuencia sintetizada de La2 cerca de 110 Hz",
+      "resultado": "PASS",
+      "detalle": "109.97506234413964"
+    },
+    {
+      "prueba": "Decaimiento físico de amplitud",
+      "resultado": "PASS",
+      "detalle": "(0.20019708905519412, 0.002201174184152786)"
+    },
+    {
+      "prueba": "Encuadre horizontal 667×375",
+      "resultado": "PASS",
+      "detalle": "escala 5.105; ancho púa 92.0"
+    },
+    {
+      "prueba": "Encuadre horizontal 736×414",
+      "resultado": "PASS",
+      "detalle": "escala 5.646; ancho púa 101.6"
+    },
+    {
+      "prueba": "Encuadre horizontal 780×360",
+      "resultado": "PASS",
+      "detalle": "escala 5.714; ancho púa 107.8"
+    },
+    {
+      "prueba": "Encuadre horizontal 844×390",
+      "resultado": "PASS",
+      "detalle": "escala 6.309; ancho púa 116.8"
+    },
+    {
+      "prueba": "Encuadre horizontal 852×393",
+      "resultado": "PASS",
+      "detalle": "escala 6.369; ancho púa 117.9"
+    },
+    {
+      "prueba": "Encuadre horizontal 932×430",
+      "resultado": "PASS",
+      "detalle": "escala 7.103; ancho púa 129.1"
+    },
+    {
+      "prueba": "Encuadre horizontal 1024×768",
+      "resultado": "PASS",
+      "detalle": "escala 7.904; ancho púa 142.0"
+    },
+    {
+      "prueba": "Encuadre horizontal 1180×820",
+      "resultado": "PASS",
+      "detalle": "escala 9.134; ancho púa 163.8"
+    },
+    {
+      "prueba": "Pantalla vertical pide rotar",
+      "resultado": "PASS",
+      "detalle": ""
+    },
+    {
+      "prueba": "Sin excepciones durante las pruebas",
+      "resultado": "PASS",
+      "detalle": "[]"
+    },
+    {
+      "prueba": "Sin recursos HTTP externos durante pruebas",
+      "resultado": "PASS",
+      "detalle": ""
+    }
+  ],
+  "limitaciones": [
+    "No iPhone físico",
+    "No latencia dedo-altavoz medida",
+    "No escucha subjetiva del timbre",
+    "No Safari físico ni WebKit disponible en esta ejecución"
+  ]
+}
